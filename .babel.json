@@ -1,0 +1,1801 @@
+{
+  "{\"filename\":\"/Users/ahernandez/Sites/react/routing/music/start-client.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/ahernandez/Sites/react/routing/music\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/ahernandez/Sites/react/routing/music/start-client.js",
+      "filenameRelative": "/Users/ahernandez/Sites/react/routing/music/start-client.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "start-client.js",
+      "sourceFileName": "start-client.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "start-client"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar args = ['start'];\nvar opts = { stdio: 'inherit', cwd: 'client', shell: true };\nrequire('child_process').spawn('npm', args, opts);\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0YXJ0LWNsaWVudC5qcyJdLCJuYW1lcyI6WyJhcmdzIiwib3B0cyIsInN0ZGlvIiwiY3dkIiwic2hlbGwiLCJyZXF1aXJlIiwic3Bhd24iXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBTUEsT0FBTyxDQUFFLE9BQUYsQ0FBYjtBQUNBLElBQU1DLE9BQU8sRUFBRUMsT0FBTyxTQUFULEVBQW9CQyxLQUFLLFFBQXpCLEVBQW1DQyxPQUFPLElBQTFDLEVBQWI7QUFDQUMsUUFBUSxlQUFSLEVBQXlCQyxLQUF6QixDQUErQixLQUEvQixFQUFzQ04sSUFBdEMsRUFBNENDLElBQTVDIiwiZmlsZSI6InN0YXJ0LWNsaWVudC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWhlcm5hbmRlei9TaXRlcy9yZWFjdC9yb3V0aW5nL211c2ljIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgYXJncyA9IFsgJ3N0YXJ0JyBdO1xuY29uc3Qgb3B0cyA9IHsgc3RkaW86ICdpbmhlcml0JywgY3dkOiAnY2xpZW50Jywgc2hlbGw6IHRydWUgfTtcbnJlcXVpcmUoJ2NoaWxkX3Byb2Nlc3MnKS5zcGF3bignbnBtJywgYXJncywgb3B0cyk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "start-client.js"
+      ],
+      "names": [
+        "args",
+        "opts",
+        "stdio",
+        "cwd",
+        "shell",
+        "require",
+        "spawn"
+      ],
+      "mappings": ";;AAAA,IAAMA,OAAO,CAAE,OAAF,CAAb;AACA,IAAMC,OAAO,EAAEC,OAAO,SAAT,EAAoBC,KAAK,QAAzB,EAAmCC,OAAO,IAA1C,EAAb;AACAC,QAAQ,eAAR,EAAyBC,KAAzB,CAA+B,KAA/B,EAAsCN,IAAtC,EAA4CC,IAA5C",
+      "file": "start-client.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "sourcesContent": [
+        "const args = [ 'start' ];\nconst opts = { stdio: 'inherit', cwd: 'client', shell: true };\nrequire('child_process').spawn('npm', args, opts);\n"
+      ]
+    },
+    "mtime": 1565150447437
+  },
+  "{\"filename\":\"/Users/ahernandez/Sites/react/routing/music/start-server.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/ahernandez/Sites/react/routing/music\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "./server",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "app"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/ahernandez/Sites/react/routing/music/start-server.js",
+      "filenameRelative": "/Users/ahernandez/Sites/react/routing/music/start-server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "start-server.js",
+      "sourceFileName": "start-server.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "start-server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _server = require('./server');\n\nvar _server2 = _interopRequireDefault(_server);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_server2.default.listen(_server2.default.get('port'), function () {\n  console.log('Find the server at: http://localhost:' + _server2.default.get('port') + '/'); // eslint-disable-line no-console\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0YXJ0LXNlcnZlci5qcyJdLCJuYW1lcyI6WyJsaXN0ZW4iLCJnZXQiLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOztBQUFBOzs7Ozs7QUFFQSxpQkFBSUEsTUFBSixDQUFXLGlCQUFJQyxHQUFKLENBQVEsTUFBUixDQUFYLEVBQTRCLFlBQU07QUFDaENDLFVBQVFDLEdBQVIsMkNBQW9ELGlCQUFJRixHQUFKLENBQVEsTUFBUixDQUFwRCxRQURnQyxDQUN5QztBQUMxRSxDQUZEIiwiZmlsZSI6InN0YXJ0LXNlcnZlci5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWhlcm5hbmRlei9TaXRlcy9yZWFjdC9yb3V0aW5nL211c2ljIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGFwcCBmcm9tICcuL3NlcnZlcic7XG5cbmFwcC5saXN0ZW4oYXBwLmdldCgncG9ydCcpLCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKGBGaW5kIHRoZSBzZXJ2ZXIgYXQ6IGh0dHA6Ly9sb2NhbGhvc3Q6JHthcHAuZ2V0KCdwb3J0Jyl9L2ApOyAvLyBlc2xpbnQtZGlzYWJsZS1saW5lIG5vLWNvbnNvbGVcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "start-server.js"
+      ],
+      "names": [
+        "listen",
+        "get",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;;;;;AAEA,iBAAIA,MAAJ,CAAW,iBAAIC,GAAJ,CAAQ,MAAR,CAAX,EAA4B,YAAM;AAChCC,UAAQC,GAAR,2CAAoD,iBAAIF,GAAJ,CAAQ,MAAR,CAApD,QADgC,CACyC;AAC1E,CAFD",
+      "file": "start-server.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "sourcesContent": [
+        "import app from './server';\n\napp.listen(app.get('port'), () => {\n  console.log(`Find the server at: http://localhost:${app.get('port')}/`); // eslint-disable-line no-console\n});\n"
+      ]
+    },
+    "mtime": 1565150447267
+  },
+  "{\"filename\":\"/Users/ahernandez/Sites/react/routing/music/server.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/ahernandez/Sites/react/routing/music\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "morgan",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "morgan"
+              }
+            ]
+          },
+          {
+            "source": "./SpotifyClient",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "SpotifyClient"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "API_TOKEN"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "API_TOKEN",
+              "exported": "API_TOKEN"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/ahernandez/Sites/react/routing/music/server.js",
+      "filenameRelative": "/Users/ahernandez/Sites/react/routing/music/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.API_TOKEN = undefined;\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _morgan = require('morgan');\n\nvar _morgan2 = _interopRequireDefault(_morgan);\n\nvar _SpotifyClient = require('./SpotifyClient');\n\nvar _SpotifyClient2 = _interopRequireDefault(_SpotifyClient);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.set('port', process.env.API_PORT || 3001);\n\nif (process.env.NODE_ENV !== 'TEST') {\n  app.use((0, _morgan2.default)('combined'));\n}\n\n// A fake API token our server validates\nvar API_TOKEN = exports.API_TOKEN = 'D6W69PRgCoDKgHZGJmRUNA';\n\nvar extractToken = function extractToken(req) {\n  return req.query.token;\n};\n\nvar authenticatedRoute = function authenticatedRoute(req, res, next) {\n  var token = extractToken(req);\n\n  if (token) {\n    if (token === API_TOKEN) {\n      return next();\n    } else {\n      return res.status(403).json({\n        success: false,\n        error: 'Invalid token provided'\n      });\n    }\n  } else {\n    return res.status(403).json({\n      success: false,\n      error: 'No token provided. Supply token as query param `token`'\n    });\n  }\n};\n\napp.get('/api/check_token', function (req, res) {\n  var token = extractToken(req);\n\n  if (token) {\n    if (token === API_TOKEN) {\n      return res.json({ valid: true });\n    } else {\n      return res.json({ valid: false });\n    }\n  } else {\n    return res.status(400).json({\n      valid: false,\n      error: 'No token found in `Authorization` header'\n    });\n  }\n});\n\napp.get('/api/albums', authenticatedRoute, function (req, res) {\n  var albumIds = req.query.ids.split(',');\n\n  _SpotifyClient2.default.getAlbums(albumIds).then(function (albums) {\n    return res.json(albums);\n  }).catch(function (error) {\n    return res.status(500).json({\n      success: false,\n      message: 'There was an error when interfacing with Spotify',\n      error: error\n    });\n  });\n});\n\n// Make things more noticeable in the UI by introducing a fake delay\n// to logins\nvar FAKE_DELAY = 500; // ms\napp.post('/api/login', function (req, res) {\n  setTimeout(function () {\n    return res.json({\n      success: true,\n      token: API_TOKEN\n    });\n  }, FAKE_DELAY);\n});\n\nexports.default = app;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJhcHAiLCJzZXQiLCJwcm9jZXNzIiwiZW52IiwiQVBJX1BPUlQiLCJOT0RFX0VOViIsInVzZSIsIkFQSV9UT0tFTiIsImV4dHJhY3RUb2tlbiIsInJlcSIsInF1ZXJ5IiwidG9rZW4iLCJhdXRoZW50aWNhdGVkUm91dGUiLCJyZXMiLCJuZXh0Iiwic3RhdHVzIiwianNvbiIsInN1Y2Nlc3MiLCJlcnJvciIsImdldCIsInZhbGlkIiwiYWxidW1JZHMiLCJpZHMiLCJzcGxpdCIsImdldEFsYnVtcyIsInRoZW4iLCJhbGJ1bXMiLCJjYXRjaCIsIm1lc3NhZ2UiLCJGQUtFX0RFTEFZIiwicG9zdCIsInNldFRpbWVvdXQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQTs7OztBQUNBOzs7O0FBRUE7Ozs7OztBQUVBLElBQU1BLE1BQU0sd0JBQVo7O0FBRUFBLElBQUlDLEdBQUosQ0FBUSxNQUFSLEVBQWlCQyxRQUFRQyxHQUFSLENBQVlDLFFBQVosSUFBd0IsSUFBekM7O0FBRUEsSUFBSUYsUUFBUUMsR0FBUixDQUFZRSxRQUFaLEtBQXlCLE1BQTdCLEVBQXFDO0FBQ25DTCxNQUFJTSxHQUFKLENBQVEsc0JBQU8sVUFBUCxDQUFSO0FBQ0Q7O0FBRUQ7QUFDTyxJQUFNQyxnQ0FBWSx3QkFBbEI7O0FBR1AsSUFBTUMsZUFBZSxTQUFmQSxZQUFlLENBQUNDLEdBQUQ7QUFBQSxTQUNuQkEsSUFBSUMsS0FBSixDQUFVQyxLQURTO0FBQUEsQ0FBckI7O0FBSUEsSUFBTUMscUJBQXNCLFNBQXRCQSxrQkFBc0IsQ0FBQ0gsR0FBRCxFQUFNSSxHQUFOLEVBQVdDLElBQVgsRUFBb0I7QUFDOUMsTUFBTUgsUUFBUUgsYUFBYUMsR0FBYixDQUFkOztBQUVBLE1BQUlFLEtBQUosRUFBVztBQUNULFFBQUlBLFVBQVVKLFNBQWQsRUFBeUI7QUFDdkIsYUFBT08sTUFBUDtBQUNELEtBRkQsTUFFTztBQUNMLGFBQU9ELElBQUlFLE1BQUosQ0FBVyxHQUFYLEVBQWdCQyxJQUFoQixDQUFxQjtBQUMxQkMsaUJBQVMsS0FEaUI7QUFFMUJDLGVBQU87QUFGbUIsT0FBckIsQ0FBUDtBQUlEO0FBQ0YsR0FURCxNQVNPO0FBQ0wsV0FBT0wsSUFBSUUsTUFBSixDQUFXLEdBQVgsRUFBZ0JDLElBQWhCLENBQXFCO0FBQzFCQyxlQUFTLEtBRGlCO0FBRTFCQyxhQUFPO0FBRm1CLEtBQXJCLENBQVA7QUFJRDtBQUNGLENBbEJEOztBQW9CQWxCLElBQUltQixHQUFKLENBQVEsa0JBQVIsRUFBNEIsVUFBQ1YsR0FBRCxFQUFNSSxHQUFOLEVBQWM7QUFDeEMsTUFBTUYsUUFBUUgsYUFBYUMsR0FBYixDQUFkOztBQUVBLE1BQUlFLEtBQUosRUFBVztBQUNULFFBQUlBLFVBQVVKLFNBQWQsRUFBeUI7QUFDdkIsYUFBT00sSUFBSUcsSUFBSixDQUFTLEVBQUVJLE9BQU8sSUFBVCxFQUFULENBQVA7QUFDRCxLQUZELE1BRU87QUFDTCxhQUFPUCxJQUFJRyxJQUFKLENBQVMsRUFBRUksT0FBTyxLQUFULEVBQVQsQ0FBUDtBQUNEO0FBQ0YsR0FORCxNQU1PO0FBQ0wsV0FBT1AsSUFBSUUsTUFBSixDQUFXLEdBQVgsRUFBZ0JDLElBQWhCLENBQXFCO0FBQzFCSSxhQUFPLEtBRG1CO0FBRTFCRixhQUFPO0FBRm1CLEtBQXJCLENBQVA7QUFJRDtBQUNGLENBZkQ7O0FBaUJBbEIsSUFBSW1CLEdBQUosQ0FBUSxhQUFSLEVBQXVCUCxrQkFBdkIsRUFBMkMsVUFBQ0gsR0FBRCxFQUFNSSxHQUFOLEVBQWM7QUFDdkQsTUFBTVEsV0FBV1osSUFBSUMsS0FBSixDQUFVWSxHQUFWLENBQWNDLEtBQWQsQ0FBb0IsR0FBcEIsQ0FBakI7O0FBRUEsMEJBQWNDLFNBQWQsQ0FBd0JILFFBQXhCLEVBQWtDSSxJQUFsQyxDQUF1QyxVQUFDQyxNQUFEO0FBQUEsV0FDckNiLElBQUlHLElBQUosQ0FBU1UsTUFBVCxDQURxQztBQUFBLEdBQXZDLEVBRUdDLEtBRkgsQ0FFUyxVQUFDVCxLQUFEO0FBQUEsV0FDUEwsSUFBSUUsTUFBSixDQUFXLEdBQVgsRUFBZ0JDLElBQWhCLENBQXFCO0FBQ25CQyxlQUFTLEtBRFU7QUFFbkJXLGVBQVMsa0RBRlU7QUFHbkJWLGFBQU9BO0FBSFksS0FBckIsQ0FETztBQUFBLEdBRlQ7QUFTRCxDQVpEOztBQWNBO0FBQ0E7QUFDQSxJQUFNVyxhQUFhLEdBQW5CLEMsQ0FBd0I7QUFDeEI3QixJQUFJOEIsSUFBSixDQUFTLFlBQVQsRUFBdUIsVUFBQ3JCLEdBQUQsRUFBTUksR0FBTixFQUFjO0FBQ25Da0IsYUFBVztBQUFBLFdBQ1RsQixJQUFJRyxJQUFKLENBQVM7QUFDUEMsZUFBUyxJQURGO0FBRVBOLGFBQU9KO0FBRkEsS0FBVCxDQURTO0FBQUEsR0FBWCxFQUtHc0IsVUFMSDtBQU1ELENBUEQ7O2tCQVNlN0IsRyIsImZpbGUiOiJzZXJ2ZXIuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL2FoZXJuYW5kZXovU2l0ZXMvcmVhY3Qvcm91dGluZy9tdXNpYyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IG1vcmdhbiBmcm9tICdtb3JnYW4nO1xuXG5pbXBvcnQgU3BvdGlmeUNsaWVudCBmcm9tICcuL1Nwb3RpZnlDbGllbnQnO1xuXG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5cbmFwcC5zZXQoJ3BvcnQnLCAocHJvY2Vzcy5lbnYuQVBJX1BPUlQgfHwgMzAwMSkpO1xuXG5pZiAocHJvY2Vzcy5lbnYuTk9ERV9FTlYgIT09ICdURVNUJykge1xuICBhcHAudXNlKG1vcmdhbignY29tYmluZWQnKSk7XG59XG5cbi8vIEEgZmFrZSBBUEkgdG9rZW4gb3VyIHNlcnZlciB2YWxpZGF0ZXNcbmV4cG9ydCBjb25zdCBBUElfVE9LRU4gPSAnRDZXNjlQUmdDb0RLZ0haR0ptUlVOQSc7XG5cblxuY29uc3QgZXh0cmFjdFRva2VuID0gKHJlcSkgPT4gKFxuICByZXEucXVlcnkudG9rZW5cbik7XG5cbmNvbnN0IGF1dGhlbnRpY2F0ZWRSb3V0ZSA9ICgocmVxLCByZXMsIG5leHQpID0+IHtcbiAgY29uc3QgdG9rZW4gPSBleHRyYWN0VG9rZW4ocmVxKTtcblxuICBpZiAodG9rZW4pIHtcbiAgICBpZiAodG9rZW4gPT09IEFQSV9UT0tFTikge1xuICAgICAgcmV0dXJuIG5leHQoKTtcbiAgICB9IGVsc2Uge1xuICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAzKS5qc29uKHtcbiAgICAgICAgc3VjY2VzczogZmFsc2UsXG4gICAgICAgIGVycm9yOiAnSW52YWxpZCB0b2tlbiBwcm92aWRlZCcsXG4gICAgICB9KTtcbiAgICB9XG4gIH0gZWxzZSB7XG4gICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAzKS5qc29uKHtcbiAgICAgIHN1Y2Nlc3M6IGZhbHNlLFxuICAgICAgZXJyb3I6ICdObyB0b2tlbiBwcm92aWRlZC4gU3VwcGx5IHRva2VuIGFzIHF1ZXJ5IHBhcmFtIGB0b2tlbmAnLFxuICAgIH0pO1xuICB9XG59KTtcblxuYXBwLmdldCgnL2FwaS9jaGVja190b2tlbicsIChyZXEsIHJlcykgPT4ge1xuICBjb25zdCB0b2tlbiA9IGV4dHJhY3RUb2tlbihyZXEpO1xuXG4gIGlmICh0b2tlbikge1xuICAgIGlmICh0b2tlbiA9PT0gQVBJX1RPS0VOKSB7XG4gICAgICByZXR1cm4gcmVzLmpzb24oeyB2YWxpZDogdHJ1ZSB9KTtcbiAgICB9IGVsc2Uge1xuICAgICAgcmV0dXJuIHJlcy5qc29uKHsgdmFsaWQ6IGZhbHNlIH0pO1xuICAgIH1cbiAgfSBlbHNlIHtcbiAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oe1xuICAgICAgdmFsaWQ6IGZhbHNlLFxuICAgICAgZXJyb3I6ICdObyB0b2tlbiBmb3VuZCBpbiBgQXV0aG9yaXphdGlvbmAgaGVhZGVyJyxcbiAgICB9KTtcbiAgfVxufSk7XG5cbmFwcC5nZXQoJy9hcGkvYWxidW1zJywgYXV0aGVudGljYXRlZFJvdXRlLCAocmVxLCByZXMpID0+IHtcbiAgY29uc3QgYWxidW1JZHMgPSByZXEucXVlcnkuaWRzLnNwbGl0KCcsJyk7XG5cbiAgU3BvdGlmeUNsaWVudC5nZXRBbGJ1bXMoYWxidW1JZHMpLnRoZW4oKGFsYnVtcykgPT4gKFxuICAgIHJlcy5qc29uKGFsYnVtcylcbiAgKSkuY2F0Y2goKGVycm9yKSA9PiAoXG4gICAgcmVzLnN0YXR1cyg1MDApLmpzb24oe1xuICAgICAgc3VjY2VzczogZmFsc2UsXG4gICAgICBtZXNzYWdlOiAnVGhlcmUgd2FzIGFuIGVycm9yIHdoZW4gaW50ZXJmYWNpbmcgd2l0aCBTcG90aWZ5JyxcbiAgICAgIGVycm9yOiBlcnJvcixcbiAgICB9KVxuICApKTtcbn0pO1xuXG4vLyBNYWtlIHRoaW5ncyBtb3JlIG5vdGljZWFibGUgaW4gdGhlIFVJIGJ5IGludHJvZHVjaW5nIGEgZmFrZSBkZWxheVxuLy8gdG8gbG9naW5zXG5jb25zdCBGQUtFX0RFTEFZID0gNTAwOyAvLyBtc1xuYXBwLnBvc3QoJy9hcGkvbG9naW4nLCAocmVxLCByZXMpID0+IHtcbiAgc2V0VGltZW91dCgoKSA9PiAoXG4gICAgcmVzLmpzb24oe1xuICAgICAgc3VjY2VzczogdHJ1ZSxcbiAgICAgIHRva2VuOiBBUElfVE9LRU4sXG4gICAgfSlcbiAgKSwgRkFLRV9ERUxBWSk7XG59KTtcblxuZXhwb3J0IGRlZmF1bHQgYXBwO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "app",
+        "set",
+        "process",
+        "env",
+        "API_PORT",
+        "NODE_ENV",
+        "use",
+        "API_TOKEN",
+        "extractToken",
+        "req",
+        "query",
+        "token",
+        "authenticatedRoute",
+        "res",
+        "next",
+        "status",
+        "json",
+        "success",
+        "error",
+        "get",
+        "valid",
+        "albumIds",
+        "ids",
+        "split",
+        "getAlbums",
+        "then",
+        "albums",
+        "catch",
+        "message",
+        "FAKE_DELAY",
+        "post",
+        "setTimeout"
+      ],
+      "mappings": ";;;;;;;AAAA;;;;AACA;;;;AAEA;;;;;;AAEA,IAAMA,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,MAAR,EAAiBC,QAAQC,GAAR,CAAYC,QAAZ,IAAwB,IAAzC;;AAEA,IAAIF,QAAQC,GAAR,CAAYE,QAAZ,KAAyB,MAA7B,EAAqC;AACnCL,MAAIM,GAAJ,CAAQ,sBAAO,UAAP,CAAR;AACD;;AAED;AACO,IAAMC,gCAAY,wBAAlB;;AAGP,IAAMC,eAAe,SAAfA,YAAe,CAACC,GAAD;AAAA,SACnBA,IAAIC,KAAJ,CAAUC,KADS;AAAA,CAArB;;AAIA,IAAMC,qBAAsB,SAAtBA,kBAAsB,CAACH,GAAD,EAAMI,GAAN,EAAWC,IAAX,EAAoB;AAC9C,MAAMH,QAAQH,aAAaC,GAAb,CAAd;;AAEA,MAAIE,KAAJ,EAAW;AACT,QAAIA,UAAUJ,SAAd,EAAyB;AACvB,aAAOO,MAAP;AACD,KAFD,MAEO;AACL,aAAOD,IAAIE,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB;AAC1BC,iBAAS,KADiB;AAE1BC,eAAO;AAFmB,OAArB,CAAP;AAID;AACF,GATD,MASO;AACL,WAAOL,IAAIE,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB;AAC1BC,eAAS,KADiB;AAE1BC,aAAO;AAFmB,KAArB,CAAP;AAID;AACF,CAlBD;;AAoBAlB,IAAImB,GAAJ,CAAQ,kBAAR,EAA4B,UAACV,GAAD,EAAMI,GAAN,EAAc;AACxC,MAAMF,QAAQH,aAAaC,GAAb,CAAd;;AAEA,MAAIE,KAAJ,EAAW;AACT,QAAIA,UAAUJ,SAAd,EAAyB;AACvB,aAAOM,IAAIG,IAAJ,CAAS,EAAEI,OAAO,IAAT,EAAT,CAAP;AACD,KAFD,MAEO;AACL,aAAOP,IAAIG,IAAJ,CAAS,EAAEI,OAAO,KAAT,EAAT,CAAP;AACD;AACF,GAND,MAMO;AACL,WAAOP,IAAIE,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB;AAC1BI,aAAO,KADmB;AAE1BF,aAAO;AAFmB,KAArB,CAAP;AAID;AACF,CAfD;;AAiBAlB,IAAImB,GAAJ,CAAQ,aAAR,EAAuBP,kBAAvB,EAA2C,UAACH,GAAD,EAAMI,GAAN,EAAc;AACvD,MAAMQ,WAAWZ,IAAIC,KAAJ,CAAUY,GAAV,CAAcC,KAAd,CAAoB,GAApB,CAAjB;;AAEA,0BAAcC,SAAd,CAAwBH,QAAxB,EAAkCI,IAAlC,CAAuC,UAACC,MAAD;AAAA,WACrCb,IAAIG,IAAJ,CAASU,MAAT,CADqC;AAAA,GAAvC,EAEGC,KAFH,CAES,UAACT,KAAD;AAAA,WACPL,IAAIE,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB;AACnBC,eAAS,KADU;AAEnBW,eAAS,kDAFU;AAGnBV,aAAOA;AAHY,KAArB,CADO;AAAA,GAFT;AASD,CAZD;;AAcA;AACA;AACA,IAAMW,aAAa,GAAnB,C,CAAwB;AACxB7B,IAAI8B,IAAJ,CAAS,YAAT,EAAuB,UAACrB,GAAD,EAAMI,GAAN,EAAc;AACnCkB,aAAW;AAAA,WACTlB,IAAIG,IAAJ,CAAS;AACPC,eAAS,IADF;AAEPN,aAAOJ;AAFA,KAAT,CADS;AAAA,GAAX,EAKGsB,UALH;AAMD,CAPD;;kBASe7B,G",
+      "file": "server.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "sourcesContent": [
+        "import express from 'express';\nimport morgan from 'morgan';\n\nimport SpotifyClient from './SpotifyClient';\n\nconst app = express();\n\napp.set('port', (process.env.API_PORT || 3001));\n\nif (process.env.NODE_ENV !== 'TEST') {\n  app.use(morgan('combined'));\n}\n\n// A fake API token our server validates\nexport const API_TOKEN = 'D6W69PRgCoDKgHZGJmRUNA';\n\n\nconst extractToken = (req) => (\n  req.query.token\n);\n\nconst authenticatedRoute = ((req, res, next) => {\n  const token = extractToken(req);\n\n  if (token) {\n    if (token === API_TOKEN) {\n      return next();\n    } else {\n      return res.status(403).json({\n        success: false,\n        error: 'Invalid token provided',\n      });\n    }\n  } else {\n    return res.status(403).json({\n      success: false,\n      error: 'No token provided. Supply token as query param `token`',\n    });\n  }\n});\n\napp.get('/api/check_token', (req, res) => {\n  const token = extractToken(req);\n\n  if (token) {\n    if (token === API_TOKEN) {\n      return res.json({ valid: true });\n    } else {\n      return res.json({ valid: false });\n    }\n  } else {\n    return res.status(400).json({\n      valid: false,\n      error: 'No token found in `Authorization` header',\n    });\n  }\n});\n\napp.get('/api/albums', authenticatedRoute, (req, res) => {\n  const albumIds = req.query.ids.split(',');\n\n  SpotifyClient.getAlbums(albumIds).then((albums) => (\n    res.json(albums)\n  )).catch((error) => (\n    res.status(500).json({\n      success: false,\n      message: 'There was an error when interfacing with Spotify',\n      error: error,\n    })\n  ));\n});\n\n// Make things more noticeable in the UI by introducing a fake delay\n// to logins\nconst FAKE_DELAY = 500; // ms\napp.post('/api/login', (req, res) => {\n  setTimeout(() => (\n    res.json({\n      success: true,\n      token: API_TOKEN,\n    })\n  ), FAKE_DELAY);\n});\n\nexport default app;\n"
+      ]
+    },
+    "mtime": 1565150447146
+  },
+  "{\"filename\":\"/Users/ahernandez/Sites/react/routing/music/SpotifyClient.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/ahernandez/Sites/react/routing/music\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "slicedToArray",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "isomorphic-fetch",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fetch"
+              }
+            ]
+          },
+          {
+            "source": "urijs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "URI"
+              }
+            ]
+          },
+          {
+            "source": "camelcase-keys",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "camelcaseKeys"
+              }
+            ]
+          },
+          {
+            "source": "btoa",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "btoa"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "fs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/ahernandez/Sites/react/routing/music/SpotifyClient.js",
+      "filenameRelative": "/Users/ahernandez/Sites/react/routing/music/SpotifyClient.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "SpotifyClient.js",
+      "sourceFileName": "SpotifyClient.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "SpotifyClient"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }(); /* eslint-disable prefer-template, new-cap */\n\n\nvar _isomorphicFetch = require('isomorphic-fetch');\n\nvar _isomorphicFetch2 = _interopRequireDefault(_isomorphicFetch);\n\nvar _urijs = require('urijs');\n\nvar _urijs2 = _interopRequireDefault(_urijs);\n\nvar _camelcaseKeys = require('camelcase-keys');\n\nvar _camelcaseKeys2 = _interopRequireDefault(_camelcaseKeys);\n\nvar _btoa = require('btoa');\n\nvar _btoa2 = _interopRequireDefault(_btoa);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _fs = require('fs');\n\nvar _fs2 = _interopRequireDefault(_fs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Credentials for Spotify\nvar SPOTIFY_CLIENT_ID = '6518e61ac2a54a968ad5db5fc9d4806f';\nvar SPOTIFY_CLIENT_SECRET = '24492f0774a0437181877887cb68ac9e';\nvar BASE_64_ENCODED_CLIENT_CREDENTIALS = (0, _btoa2.default)(SPOTIFY_CLIENT_ID + ':' + SPOTIFY_CLIENT_SECRET);\n\nvar getFirstImageUrl = function getFirstImageUrl(images) {\n  return images && images[0] && images[0].url;\n};\n\n// Makes the artist page more interesting by removing albums that are dupes\n// like deluxe editions, remasters, etc.\nvar filterDupes = function filterDupes(albums) {\n  return albums.reduce(function (memo, album) {\n    if (!memo.find(function (m) {\n      return m.name === album.name;\n    })) {\n      return memo.concat(album);\n    } else {\n      return memo;\n    }\n  }, []);\n};\n\nfunction checkStatus(response) {\n  if (response.status >= 200 && response.status < 300) {\n    return response;\n  } else {\n    var error = new Error('HTTP Error ' + response.statusText);\n    error.status = response.statusText;\n    error.response = response;\n    console.log('Error communicating with Spotify:');\n    console.log(error);\n    throw error;\n  }\n}\n\nfunction parseJson(response) {\n  return response.json();\n}\n\nfunction parseAlbum(album) {\n  return {\n    id: album.id,\n    tracks: album.tracks && album.tracks.items.map(function (i) {\n      return parseTrack(i);\n    }),\n    artist: parseArtist(album.artists[0]),\n    year: album.releaseDate && album.releaseDate.slice(0, 4),\n    imageUrl: getFirstImageUrl(album.images),\n    name: album.name.replace(/\\s\\(.+\\)$/, '')\n  };\n}\n\nfunction parseArtist(artist) {\n  return {\n    imageUrl: getFirstImageUrl(artist.images),\n    name: artist.name,\n    id: artist.id\n  };\n}\n\nfunction parseTrack(track) {\n  return {\n    albumImage: track.album && getFirstImageUrl(track.album.images),\n    name: track.name,\n    durationMs: track.durationMs,\n    id: track.id,\n    trackNumber: track.trackNumber,\n    previewUrl: track.previewUrl\n  };\n}\n\nvar SPOTIFY_BASE_URI = 'https://api.spotify.com/v1';\n\nvar SpotifyClient = {\n  _getWithToken: function _getWithToken(url, token) {\n    return (0, _isomorphicFetch2.default)(url, {\n      method: 'get',\n      headers: {\n        Accept: 'application/json',\n        Authorization: 'Bearer ' + token\n      }\n    }).then(checkStatus).then(parseJson).then(function (data) {\n      return (0, _camelcaseKeys2.default)(data, { deep: true });\n    });\n  },\n  _get: function _get(url) {\n    var _this = this;\n\n    if (this.token) {\n      return this._getWithToken(url, this.token);\n    } else {\n      return this._getApiToken().then(function (token) {\n        return _this._getWithToken(url, token);\n      });\n    }\n  },\n  _getApiToken: function _getApiToken() {\n    var _this2 = this;\n\n    return (0, _isomorphicFetch2.default)('https://accounts.spotify.com/api/token', {\n      method: 'post',\n      body: 'grant_type=client_credentials',\n      headers: {\n        Authorization: 'Basic ' + BASE_64_ENCODED_CLIENT_CREDENTIALS,\n        'Content-Type': 'application/x-www-form-urlencoded'\n      }\n    }).then(checkStatus).then(parseJson).then(function (json) {\n      return json.access_token;\n    }).then(function (token) {\n      return _this2.token = token;\n    });\n  },\n  getAlbum: function getAlbum(albumId) {\n    return this._get(SPOTIFY_BASE_URI + '/albums/' + albumId).then(function (data) {\n      return parseAlbum(data);\n    });\n  },\n  getAlbums: function getAlbums(albumIds) {\n    return this._get(SPOTIFY_BASE_URI + '/albums?ids=' + albumIds.join(',')).then(function (data) {\n      return data.albums.map(function (a) {\n        return parseAlbum(a);\n      });\n    });\n  },\n  getArtist: function getArtist(artistId) {\n    return this._get(SPOTIFY_BASE_URI + '/artists/' + artistId).then(function (data) {\n      return parseArtist(data);\n    });\n  },\n  getArtistTopTracks: function getArtistTopTracks(artistId) {\n    var url = (0, _urijs2.default)(SPOTIFY_BASE_URI + '/artists/' + artistId + '/top-tracks').query({ country: 'us' });\n\n    return this._get(url).then(function (data) {\n      return data.tracks.map(function (t) {\n        return parseTrack(t);\n      });\n    });\n  },\n  getArtistAlbums: function getArtistAlbums(artistId) {\n    var url = SPOTIFY_BASE_URI + '/artists/' + artistId + '/albums?album_type=album';\n\n    return this._get(url).then(function (data) {\n      return data.items.map(function (a) {\n        return parseAlbum(a);\n      });\n    });\n  },\n  getArtistAlbumsDetailed: function getArtistAlbumsDetailed(artistId) {\n    var _this3 = this;\n\n    return this.getArtistAlbums(artistId).then(function (albums) {\n      return _this3.getAlbums(albums.map(function (a) {\n        return a.id;\n      }));\n    });\n  },\n  getArtistDetailed: function getArtistDetailed(artistId) {\n    return Promise.all([this.getArtist(artistId), this.getArtistTopTracks(artistId), this.getArtistAlbumsDetailed(artistId)]).then(function (_ref) {\n      var _ref2 = _slicedToArray(_ref, 3),\n          artist = _ref2[0],\n          topTracks = _ref2[1],\n          albums = _ref2[2];\n\n      return {\n        artist: artist,\n        topTracks: topTracks,\n        albums: filterDupes(albums)\n      };\n    });\n  }\n};\n\nexports.default = SpotifyClient;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNwb3RpZnlDbGllbnQuanMiXSwibmFtZXMiOlsiU1BPVElGWV9DTElFTlRfSUQiLCJTUE9USUZZX0NMSUVOVF9TRUNSRVQiLCJCQVNFXzY0X0VOQ09ERURfQ0xJRU5UX0NSRURFTlRJQUxTIiwiZ2V0Rmlyc3RJbWFnZVVybCIsImltYWdlcyIsInVybCIsImZpbHRlckR1cGVzIiwiYWxidW1zIiwicmVkdWNlIiwibWVtbyIsImFsYnVtIiwiZmluZCIsIm0iLCJuYW1lIiwiY29uY2F0IiwiY2hlY2tTdGF0dXMiLCJyZXNwb25zZSIsInN0YXR1cyIsImVycm9yIiwiRXJyb3IiLCJzdGF0dXNUZXh0IiwiY29uc29sZSIsImxvZyIsInBhcnNlSnNvbiIsImpzb24iLCJwYXJzZUFsYnVtIiwiaWQiLCJ0cmFja3MiLCJpdGVtcyIsIm1hcCIsImkiLCJwYXJzZVRyYWNrIiwiYXJ0aXN0IiwicGFyc2VBcnRpc3QiLCJhcnRpc3RzIiwieWVhciIsInJlbGVhc2VEYXRlIiwic2xpY2UiLCJpbWFnZVVybCIsInJlcGxhY2UiLCJ0cmFjayIsImFsYnVtSW1hZ2UiLCJkdXJhdGlvbk1zIiwidHJhY2tOdW1iZXIiLCJwcmV2aWV3VXJsIiwiU1BPVElGWV9CQVNFX1VSSSIsIlNwb3RpZnlDbGllbnQiLCJfZ2V0V2l0aFRva2VuIiwidG9rZW4iLCJtZXRob2QiLCJoZWFkZXJzIiwiQWNjZXB0IiwiQXV0aG9yaXphdGlvbiIsInRoZW4iLCJkYXRhIiwiZGVlcCIsIl9nZXQiLCJfZ2V0QXBpVG9rZW4iLCJib2R5IiwiYWNjZXNzX3Rva2VuIiwiZ2V0QWxidW0iLCJhbGJ1bUlkIiwiZ2V0QWxidW1zIiwiYWxidW1JZHMiLCJqb2luIiwiYSIsImdldEFydGlzdCIsImFydGlzdElkIiwiZ2V0QXJ0aXN0VG9wVHJhY2tzIiwicXVlcnkiLCJjb3VudHJ5IiwidCIsImdldEFydGlzdEFsYnVtcyIsImdldEFydGlzdEFsYnVtc0RldGFpbGVkIiwiZ2V0QXJ0aXN0RGV0YWlsZWQiLCJQcm9t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QUE2Qk4sUUFBN0IsQ0FIaUIsQ0FBWixFQUlKZCxJQUpJLENBSUM7QUFBQTtBQUFBLFVBQUdyQixNQUFIO0FBQUEsVUFBVzZDLFNBQVg7QUFBQSxVQUFzQnRFLE1BQXRCOztBQUFBLGFBQW9DO0FBQzFDeUIsc0JBRDBDO0FBRTFDNkMsNEJBRjBDO0FBRzFDdEUsZ0JBQVFELFlBQVlDLE1BQVo7QUFIa0MsT0FBcEM7QUFBQSxLQUpELENBQVA7QUFTRDtBQS9GbUIsQ0FBdEI7O2tCQWtHZXVDLGEiLCJmaWxlIjoiU3BvdGlmeUNsaWVudC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWhlcm5hbmRlei9TaXRlcy9yZWFjdC9yb3V0aW5nL211c2ljIiwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgcHJlZmVyLXRlbXBsYXRlLCBuZXctY2FwICovXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy1mZXRjaCc7XG5pbXBvcnQgVVJJIGZyb20gJ3VyaWpzJztcbmltcG9ydCBjYW1lbGNhc2VLZXlzIGZyb20gJ2NhbWVsY2FzZS1rZXlzJztcbmltcG9ydCBidG9hIGZyb20gJ2J0b2EnO1xuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5pbXBvcnQgZnMgZnJvbSAnZnMnO1xuXG4vLyBDcmVkZW50aWFscyBmb3IgU3BvdGlmeVxuY29uc3QgU1BPVElGWV9DTElFTlRfSUQgPSAnNjUxOGU2MWFjMmE1NGE5NjhhZDVkYjVmYzlkNDgwNmYnO1xuY29uc3QgU1BPVElGWV9DTElFTlRfU0VDUkVUID0gJzI0NDkyZjA3NzRhMDQzNzE4MTg3Nzg4N2NiNjhhYzllJztcbmNvbnN0IEJBU0VfNjRfRU5DT0RFRF9DTElFTlRfQ1JFREVOVElBTFMgPSBidG9hKGAke1NQT1RJRllfQ0xJRU5UX0lEfToke1NQT1RJRllfQ0xJRU5UX1NFQ1JFVH1gKVxuXG5jb25zdCBnZXRGaXJzdEltYWdlVXJsID0gKGltYWdlcykgPT4gKFxuICBpbWFnZXMgJiYgaW1hZ2VzWzBdICYmIGltYWdlc1swXS51cmxcbik7XG5cbi8vIE1ha2VzIHRoZSBhcnRpc3QgcGFnZSBtb3JlIGludGVyZXN0aW5nIGJ5IHJlbW92aW5nIGFsYnVtcyB0aGF0IGFyZSBkdXBlc1xuLy8gbGlrZSBkZWx1eGUgZWRpdGlvbnMsIHJlbWFzdGVycywgZXRjLlxuY29uc3QgZmlsdGVyRHVwZXMgPSAoYWxidW1zKSA9PiAoXG4gIGFsYnVtcy5yZWR1Y2UoKG1lbW8sIGFsYnVtKSA9PiB7XG4gICAgaWYgKCFtZW1vLmZpbmQoKG0pID0+IG0ubmFtZSA9PT0gYWxidW0ubmFtZSkpIHtcbiAgICAgIHJldHVybiBtZW1vLmNvbmNhdChhbGJ1bSk7XG4gICAgfSBlbHNlIHtcbiAgICAgIHJldHVybiBtZW1vO1xuICAgIH1cbiAgfSwgW10pXG4pO1xuXG5mdW5jdGlvbiBjaGVja1N0YXR1cyhyZXNwb25zZSkge1xuICBpZiAocmVzcG9uc2Uuc3RhdHVzID49IDIwMCAmJiByZXNwb25zZS5zdGF0dXMgPCAzMDApIHtcbiAgICByZXR1cm4gcmVzcG9uc2U7XG4gIH0gZWxzZSB7XG4gICAgY29uc3QgZXJyb3IgPSBuZXcgRXJyb3IoYEhUVFAgRXJyb3IgJHtyZXNwb25zZS5zdGF0dXNUZXh0fWApO1xuICAgIGVycm9yLnN0YXR1cyA9IHJlc3BvbnNlLnN0YXR1c1RleHQ7XG4gICAgZXJyb3IucmVzcG9uc2UgPSByZXNwb25zZTtcbiAgICBjb25zb2xlLmxvZygnRXJyb3IgY29tbXVuaWNhdGluZyB3aXRoIFNwb3RpZnk6Jyk7XG4gICAgY29uc29sZS5sb2coZXJyb3IpO1xuICAgIHRocm93IGVycm9yO1xuICB9XG59XG5cbmZ1bmN0aW9uIHBhcnNlSnNvbihyZXNwb25zZSkge1xuICByZXR1cm4gcmVzcG9uc2UuanNvbigpO1xufVxuXG5mdW5jdGlvbiBwYXJzZUFsYnVtKGFsYnVtKSB7XG4gIHJldHVybiB7XG4gICAgaWQ6IGFsYnVtLmlkLFxuICAgIHRyYWNrczogYWxidW0udHJhY2tzICYmIGFsYnVtLnRyYWNrcy5pdGVtcy5tYXAoKGkpID0+IHBhcnNlVHJhY2soaSkpLFxuICAgIGFydGlzdDogcGFyc2VBcnRpc3QoYWxidW0uYXJ0aXN0c1swXSksXG4gICAgeWVhcjogYWxidW0ucmVsZWFzZURhdGUgJiYgYWxidW0ucmVsZWFzZURhdGUuc2xpY2UoMCwgNCksXG4gICAgaW1hZ2VVcmw6IGdldEZpcnN0SW1hZ2VVcmwoYWxidW0uaW1hZ2VzKSxcbiAgICBuYW1lOiBhbGJ1bS5uYW1lLnJlcGxhY2UoL1xcc1xcKC4rXFwpJC8sICcnKSxcbiAgfTtcbn1cblxuZnVuY3Rpb24gcGFyc2VBcnRpc3QoYXJ0aXN0KSB7XG4gIHJldHVybiB7XG4gICAgaW1hZ2VVcmw6IGdldEZpcnN0SW1hZ2VVcmwoYXJ0aXN0LmltYWdlcyksXG4gICAgbmFtZTogYXJ0aXN0Lm5hbWUsXG4gICAgaWQ6IGFydGlzdC5pZCxcbiAgfTtcbn1cblxuZnVuY3Rpb24gcGFyc2VUcmFjayh0cmFjaykge1xuICByZXR1cm4ge1xuICAgIGFsYnVtSW1hZ2U6IHRyYWNrLmFsYnVtICYmIGdldEZpcnN0SW1hZ2VVcmwodHJhY2suYWxidW0uaW1hZ2VzKSxcbiAgICBuYW1lOiB0cmFjay5uYW1lLFxuICAgIGR1cmF0aW9uTXM6IHRyYWNrLmR1cmF0aW9uTXMsXG4gICAgaWQ6IHRyYWNrLmlkLFxuICAgIHRyYWNrTnVtYmVyOiB0cmFjay50cmFja051bWJlcixcbiAgICBwcmV2aWV3VXJsOiB0cmFjay5wcmV2aWV3VXJsLFxuICB9O1xufVxuXG5jb25zdCBTUE9USUZZX0JBU0VfVVJJID0gJ2h0dHBzOi8vYXBpLnNwb3RpZnkuY29tL3YxJztcblxuY29uc3QgU3BvdGlmeUNsaWVudCA9IHtcblxuICBfZ2V0V2l0aFRva2VuKHVybCwgdG9rZW4pIHtcbiAgICByZXR1cm4gZmV0Y2godXJsLCB7XG4gICAgICBtZXRob2Q6ICdnZXQnLFxuICAgICAgaGVhZGVyczoge1xuICAgICAgICBBY2NlcHQ6ICdhcHBsaWNhdGlvbi9qc29uJyxcbiAgICAgICAgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAsXG4gICAgICB9LFxuICAgIH0pLnRoZW4oY2hlY2tTdGF0dXMpXG4gICAgICAudGhlbihwYXJzZUpzb24pXG4gICAgICAudGhlbigoZGF0YSkgPT4gY2FtZWxjYXNlS2V5cyhkYXRhLCB7IGRlZXA6IHRydWUgfSkpO1xuICB9LFxuXG4gIF9nZXQodXJsKSB7XG4gICAgaWYgKHRoaXMudG9rZW4pIHtcbiAgICAgIHJldHVybiB0aGlzLl9nZXRXaXRoVG9rZW4odXJsLCB0aGlzLnRva2VuKVxuICAgIH0gZWxzZSB7XG4gICAgICByZXR1cm4gdGhpcy5fZ2V0QXBpVG9rZW4oKS50aGVuKCh0b2tlbikgPT4gKFxuICAgICAgICB0aGlzLl9nZXRXaXRoVG9rZW4odXJsLCB0b2tlbilcbiAgICAgICkpO1xuICAgIH1cbiAgfSxcblxuICBfZ2V0QXBpVG9rZW4oKSB7XG4gICAgcmV0dXJuIGZldGNoKCdodHRwczovL2FjY291bnRzLnNwb3RpZnkuY29tL2FwaS90b2tlbicsIHtcbiAgICAgIG1ldGhvZDogJ3Bvc3QnLFxuICAgICAgYm9keTogJ2dyYW50X3R5cGU9Y2xpZW50X2NyZWRlbnRpYWxzJyxcbiAgICAgIGhlYWRlcnM6IHtcbiAgICAgICAgQXV0aG9yaXphdGlvbjogYEJhc2ljICR7QkFTRV82NF9FTkNPREVEX0NMSUVOVF9DUkVERU5USUFMU31gLFxuICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCcsXG4gICAgICB9XG4gICAgfSkudGhlbihjaGVja1N0YXR1cylcbiAgICAgIC50aGVuKHBhcnNlSnNvbilcbiAgICAgIC50aGVuKChqc29uKSA9PiBqc29uLmFjY2Vzc190b2tlbilcbiAgICAgIC50aGVuKCh0b2tlbikgPT4gdGhpcy50b2tlbiA9IHRva2VuKVxuICB9LFxuXG4gIGdldEFsYnVtKGFsYnVtSWQpIHtcbiAgICByZXR1cm4gdGhpcy5fZ2V0KFxuICAgICAgU1BPVElGWV9CQVNFX1VSSSArICcvYWxidW1zLycgKyBhbGJ1bUlkXG4gICAgKS50aGVuKChkYXRhKSA9PiBwYXJzZUFsYnVtKGRhdGEpKTtcbiAgfSxcblxuICBnZXRBbGJ1bXMoYWxidW1JZHMpIHtcbiAgICByZXR1cm4gdGhpcy5fZ2V0KFxuICAgICAgU1BPVElGWV9CQVNFX1VSSSArICcvYWxidW1zP2lkcz0nICsgYWxidW1JZHMuam9pbignLCcpXG4gICAgKS50aGVuKChkYXRhKSA9PiAoXG4gICAgICBkYXRhLmFsYnVtcy5tYXAoKGEpID0+IHBhcnNlQWxidW0oYSkpXG4gICAgKSk7XG4gIH0sXG5cbiAgZ2V0QXJ0aXN0KGFydGlzdElkKSB7XG4gICAgcmV0dXJuIHRoaXMuX2dldChcbiAgICAgIFNQT1RJRllfQkFTRV9VUkkgKyAnL2FydGlzdHMvJyArIGFydGlzdElkXG4gICAgKS50aGVuKChkYXRhKSA9PiBwYXJzZUFydGlzdChkYXRhKSk7XG4gIH0sXG5cbiAgZ2V0QXJ0aXN0VG9wVHJhY2tzKGFydGlzdElkKSB7XG4gICAgY29uc3QgdXJsID0gVVJJKFxuICAgICAgU1BPVElGWV9CQVNFX1VSSSArICcvYXJ0aXN0cy8nICsgYXJ0aXN0SWQgKyAnL3RvcC10cmFja3MnXG4gICAgKS5xdWVyeSh7IGNvdW50cnk6ICd1cycgfSk7XG5cbiAgICByZXR1cm4gdGhpcy5fZ2V0KHVybCkudGhlbigoZGF0YSkgPT4gKFxuICAgICAgZGF0YS50cmFja3MubWFwKCh0KSA9PiBwYXJzZVRyYWNrKHQpKVxuICAgICkpO1xuICB9LFxuXG4gIGdldEFydGlzdEFsYnVtcyhhcnRpc3RJZCkge1xuICAgIGNvbnN0IHVybCA9IChcbiAgICAgIFNQT1RJRllfQkFTRV9VUkkgKyAnL2FydGlzdHMvJyArIGFydGlzdElkICsgJy9hbGJ1bXM/YWxidW1fdHlwZT1hbGJ1bSdcbiAgICApO1xuXG4gICAgcmV0dXJuIHRoaXMuX2dldCh1cmwpLnRoZW4oKGRhdGEpID0+IChcbiAgICAgIGRhdGEuaXRlbXMubWFwKChhKSA9PiBwYXJzZUFsYnVtKGEpKVxuICAgICkpO1xuICB9LFxuXG4gIGdldEFydGlzdEFsYnVtc0RldGFpbGVkKGFydGlzdElkKSB7XG4gICAgcmV0dXJuIHRoaXMuZ2V0QXJ0aXN0QWxidW1zKGFydGlzdElkKVxuICAgICAgICAgICAgIC50aGVuKChhbGJ1bXMpID0+IHRoaXMuZ2V0QWxidW1zKFxuICAgICAgICAgICAgICAgYWxidW1zLm1hcCgoYSkgPT4gYS5pZClcbiAgICAgICAgICAgICApKTtcbiAgfSxcblxuICBnZXRBcnRpc3REZXRhaWxlZChhcnRpc3RJZCkge1xuICAgIHJldHVybiBQcm9taXNlLmFsbChbXG4gICAgICB0aGlzLmdldEFydGlzdChhcnRpc3RJZCksXG4gICAgICB0aGlzLmdldEFydGlzdFRvcFRyYWNrcyhhcnRpc3RJZCksXG4gICAgICB0aGlzLmdldEFydGlzdEFsYnVtc0RldGFpbGVkKGFydGlzdElkKSxcbiAgICBdKS50aGVuKChbIGFydGlzdCwgdG9wVHJhY2tzLCBhbGJ1bXMgXSkgPT4gKHtcbiAgICAgIGFydGlzdCxcbiAgICAgIHRvcFRyYWNrcyxcbiAgICAgIGFsYnVtczogZmlsdGVyRHVwZXMoYWxidW1zKSxcbiAgICB9KSk7XG4gIH0sXG59XG5cbmV4cG9ydCBkZWZhdWx0IFNwb3RpZnlDbGllbnQ7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "SpotifyClient.js"
+      ],
+      "names": [
+        "SPOTIFY_CLIENT_ID",
+        "SPOTIFY_CLIENT_SECRET",
+        "BASE_64_ENCODED_CLIENT_CREDENTIALS",
+        "getFirstImageUrl",
+        "images",
+        "url",
+        "filterDupes",
+        "albums",
+        "reduce",
+        "memo",
+        "album",
+        "find",
+        "m",
+        "name",
+        "concat",
+        "checkStatus",
+        "response",
+        "status",
+        "error",
+        "Error",
+        "statusText",
+        "console",
+        "log",
+        "parseJson",
+        "json",
+        "parseAlbum",
+        "id",
+        "tracks",
+        "items",
+        "map",
+        "i",
+        "parseTrack",
+        "artist",
+        "parseArtist",
+        "artists",
+        "year",
+        "releaseDate",
+        "slice",
+        "imageUrl",
+        "replace",
+        "track",
+        "albumImage",
+        "durationMs",
+        "trackNumber",
+        "previewUrl",
+        "SPOTIFY_BASE_URI",
+        "SpotifyClient",
+        "_getWithToken",
+        "token",
+        "method",
+        "headers",
+        "Accept",
+        "Authorization",
+        "then",
+        "data",
+        "deep",
+        "_get",
+        "_getApiToken",
+        "body",
+        "access_token",
+        "getAlbum",
+        "albumId",
+        "getAlbums",
+        "albumIds",
+        "join",
+        "a",
+        "getArtist",
+        "artistId",
+        "getArtistTopTracks",
+        "query",
+        "country",
+        "t",
+        "getArtistAlbums",
+        "getArtistAlbumsDetailed",
+        "getArtistDetailed",
+        "Promise",
+        "all",
+        "topTracks"
+      ],
+      "mappings": "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",
+      "file": "SpotifyClient.js",
+      "sourceRoot": "/Users/ahernandez/Sites/react/routing/music",
+      "sourcesContent": [
+        "/* eslint-disable prefer-template, new-cap */\nimport fetch from 'isomorphic-fetch';\nimport URI from 'urijs';\nimport camelcaseKeys from 'camelcase-keys';\nimport btoa from 'btoa';\nimport path from 'path';\nimport fs from 'fs';\n\n// Credentials for Spotify\nconst SPOTIFY_CLIENT_ID = '6518e61ac2a54a968ad5db5fc9d4806f';\nconst SPOTIFY_CLIENT_SECRET = '24492f0774a0437181877887cb68ac9e';\nconst BASE_64_ENCODED_CLIENT_CREDENTIALS = btoa(`${SPOTIFY_CLIENT_ID}:${SPOTIFY_CLIENT_SECRET}`)\n\nconst getFirstImageUrl = (images) => (\n  images && images[0] && images[0].url\n);\n\n// Makes the artist page more interesting by removing albums that are dupes\n// like deluxe editions, remasters, etc.\nconst filterDupes = (albums) => (\n  albums.reduce((memo, album) => {\n    if (!memo.find((m) => m.name === album.name)) {\n      return memo.concat(album);\n    } else {\n      return memo;\n    }\n  }, [])\n);\n\nfunction checkStatus(response) {\n  if (response.status >= 200 && response.status < 300) {\n    return response;\n  } else {\n    const error = new Error(`HTTP Error ${response.statusText}`);\n    error.status = response.statusText;\n    error.response = response;\n    console.log('Error communicating with Spotify:');\n    console.log(error);\n    throw error;\n  }\n}\n\nfunction parseJson(response) {\n  return response.json();\n}\n\nfunction parseAlbum(album) {\n  return {\n    id: album.id,\n    tracks: album.tracks && album.tracks.items.map((i) => parseTrack(i)),\n    artist: parseArtist(album.artists[0]),\n    year: album.releaseDate && album.releaseDate.slice(0, 4),\n    imageUrl: getFirstImageUrl(album.images),\n    name: album.name.replace(/\\s\\(.+\\)$/, ''),\n  };\n}\n\nfunction parseArtist(artist) {\n  return {\n    imageUrl: getFirstImageUrl(artist.images),\n    name: artist.name,\n    id: artist.id,\n  };\n}\n\nfunction parseTrack(track) {\n  return {\n    albumImage: track.album && getFirstImageUrl(track.album.images),\n    name: track.name,\n    durationMs: track.durationMs,\n    id: track.id,\n    trackNumber: track.trackNumber,\n    previewUrl: track.previewUrl,\n  };\n}\n\nconst SPOTIFY_BASE_URI = 'https://api.spotify.com/v1';\n\nconst SpotifyClient = {\n\n  _getWithToken(url, token) {\n    return fetch(url, {\n      method: 'get',\n      headers: {\n        Accept: 'application/json',\n        Authorization: `Bearer ${token}`,\n      },\n    }).then(checkStatus)\n      .then(parseJson)\n      .then((data) => camelcaseKeys(data, { deep: true }));\n  },\n\n  _get(url) {\n    if (this.token) {\n      return this._getWithToken(url, this.token)\n    } else {\n      return this._getApiToken().then((token) => (\n        this._getWithToken(url, token)\n      ));\n    }\n  },\n\n  _getApiToken() {\n    return fetch('https://accounts.spotify.com/api/token', {\n      method: 'post',\n      body: 'grant_type=client_credentials',\n      headers: {\n        Authorization: `Basic ${BASE_64_ENCODED_CLIENT_CREDENTIALS}`,\n        'Content-Type': 'application/x-www-form-urlencoded',\n      }\n    }).then(checkStatus)\n      .then(parseJson)\n      .then((json) => json.access_token)\n      .then((token) => this.token = token)\n  },\n\n  getAlbum(albumId) {\n    return this._get(\n      SPOTIFY_BASE_URI + '/albums/' + albumId\n    ).then((data) => parseAlbum(data));\n  },\n\n  getAlbums(albumIds) {\n    return this._get(\n      SPOTIFY_BASE_URI + '/albums?ids=' + albumIds.join(',')\n    ).then((data) => (\n      data.albums.map((a) => parseAlbum(a))\n    ));\n  },\n\n  getArtist(artistId) {\n    return this._get(\n      SPOTIFY_BASE_URI + '/artists/' + artistId\n    ).then((data) => parseArtist(data));\n  },\n\n  getArtistTopTracks(artistId) {\n    const url = URI(\n      SPOTIFY_BASE_URI + '/artists/' + artistId + '/top-tracks'\n    ).query({ country: 'us' });\n\n    return this._get(url).then((data) => (\n      data.tracks.map((t) => parseTrack(t))\n    ));\n  },\n\n  getArtistAlbums(artistId) {\n    const url = (\n      SPOTIFY_BASE_URI + '/artists/' + artistId + '/albums?album_type=album'\n    );\n\n    return this._get(url).then((data) => (\n      data.items.map((a) => parseAlbum(a))\n    ));\n  },\n\n  getArtistAlbumsDetailed(artistId) {\n    return this.getArtistAlbums(artistId)\n             .then((albums) => this.getAlbums(\n               albums.map((a) => a.id)\n             ));\n  },\n\n  getArtistDetailed(artistId) {\n    return Promise.all([\n      this.getArtist(artistId),\n      this.getArtistTopTracks(artistId),\n      this.getArtistAlbumsDetailed(artistId),\n    ]).then(([ artist, topTracks, albums ]) => ({\n      artist,\n      topTracks,\n      albums: filterDupes(albums),\n    }));\n  },\n}\n\nexport default SpotifyClient;\n"
+      ]
+    },
+    "mtime": 1565150447394
+  },
+  "{\"filename\":\"/Users/ahernandez/Sites/fullstack-react-code/redux/counter/app.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/ahernandez/Sites/fullstack-react-code/redux/counter\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/app.js",
+      "filenameRelative": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nrequire('./alex-complete/reducer');\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6WyJyZXF1aXJlIl0sIm1hcHBpbmdzIjoiOztBQUFBQSxRQUFRLHlCQUFSIiwiZmlsZSI6ImFwcC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWhlcm5hbmRlei9TaXRlcy9mdWxsc3RhY2stcmVhY3QtY29kZS9yZWR1eC9jb3VudGVyIiwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnLi9hbGV4LWNvbXBsZXRlL3JlZHVjZXInKTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app.js"
+      ],
+      "names": [
+        "require"
+      ],
+      "mappings": ";;AAAAA,QAAQ,yBAAR",
+      "file": "app.js",
+      "sourceRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter",
+      "sourcesContent": [
+        "require('./alex-complete/reducer');\n"
+      ]
+    },
+    "mtime": 1565662566807
+  },
+  "{\"filename\":\"/Users/ahernandez/Sites/fullstack-react-code/redux/counter/complete/initial-reducer.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/ahernandez/Sites/fullstack-react-code/redux/counter/complete\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/complete/initial-reducer.js",
+      "filenameRelative": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/complete/initial-reducer.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "initial-reducer.js",
+      "sourceFileName": "initial-reducer.js",
+      "sourceRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/complete",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/complete",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "initial-reducer"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\n/* eslint-disable no-console */\n\nfunction reducer(state, action) {\n  if (action.type === 'INCREMENT') {\n    return state + 1;\n  } else {\n    return state;\n  }\n}\n\nvar incrementAction = { type: 'INCREMENT' };\n\nconsole.log(reducer(0, incrementAction)); // -> 1\nconsole.log(reducer(1, incrementAction)); // -> 2\nconsole.log(reducer(5, incrementAction)); // -> 6\n\nvar unknownAction = { type: 'UNKNOWN' };\n\nconsole.log(reducer(5, unknownAction)); // -> 5\nconsole.log(reducer(8, unknownAction)); // -> 8\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluaXRpYWwtcmVkdWNlci5qcyJdLCJuYW1lcyI6WyJyZWR1Y2VyIiwic3RhdGUiLCJhY3Rpb24iLCJ0eXBlIiwiaW5jcmVtZW50QWN0aW9uIiwiY29uc29sZSIsImxvZyIsInVua25vd25BY3Rpb24iXSwibWFwcGluZ3MiOiI7O0FBQUE7O0FBRUEsU0FBU0EsT0FBVCxDQUFpQkMsS0FBakIsRUFBd0JDLE1BQXhCLEVBQWdDO0FBQzlCLE1BQUlBLE9BQU9DLElBQVAsS0FBZ0IsV0FBcEIsRUFBaUM7QUFDL0IsV0FBT0YsUUFBUSxDQUFmO0FBQ0QsR0FGRCxNQUVPO0FBQ0wsV0FBT0EsS0FBUDtBQUNEO0FBQ0Y7O0FBRUQsSUFBTUcsa0JBQWtCLEVBQUVELE1BQU0sV0FBUixFQUF4Qjs7QUFFQUUsUUFBUUMsR0FBUixDQUFZTixRQUFRLENBQVIsRUFBV0ksZUFBWCxDQUFaLEUsQ0FBMEM7QUFDMUNDLFFBQVFDLEdBQVIsQ0FBWU4sUUFBUSxDQUFSLEVBQVdJLGVBQVgsQ0FBWixFLENBQTBDO0FBQzFDQyxRQUFRQyxHQUFSLENBQVlOLFFBQVEsQ0FBUixFQUFXSSxlQUFYLENBQVosRSxDQUEwQzs7QUFFMUMsSUFBTUcsZ0JBQWdCLEVBQUVKLE1BQU0sU0FBUixFQUF0Qjs7QUFFQUUsUUFBUUMsR0FBUixDQUFZTixRQUFRLENBQVIsRUFBV08sYUFBWCxDQUFaLEUsQ0FBd0M7QUFDeENGLFFBQVFDLEdBQVIsQ0FBWU4sUUFBUSxDQUFSLEVBQVdPLGFBQVgsQ0FBWixFLENBQXdDIiwiZmlsZSI6ImluaXRpYWwtcmVkdWNlci5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWhlcm5hbmRlei9TaXRlcy9mdWxsc3RhY2stcmVhY3QtY29kZS9yZWR1eC9jb3VudGVyL2NvbXBsZXRlIiwic291cmNlc0NvbnRlbnQiOlsiLyogZXNsaW50LWRpc2FibGUgbm8tY29uc29sZSAqL1xuXG5mdW5jdGlvbiByZWR1Y2VyKHN0YXRlLCBhY3Rpb24pIHtcbiAgaWYgKGFjdGlvbi50eXBlID09PSAnSU5DUkVNRU5UJykge1xuICAgIHJldHVybiBzdGF0ZSArIDE7XG4gIH0gZWxzZSB7XG4gICAgcmV0dXJuIHN0YXRlO1xuICB9XG59XG5cbmNvbnN0IGluY3JlbWVudEFjdGlvbiA9IHsgdHlwZTogJ0lOQ1JFTUVOVCcgfTtcblxuY29uc29sZS5sb2cocmVkdWNlcigwLCBpbmNyZW1lbnRBY3Rpb24pKTsgLy8gLT4gMVxuY29uc29sZS5sb2cocmVkdWNlcigxLCBpbmNyZW1lbnRBY3Rpb24pKTsgLy8gLT4gMlxuY29uc29sZS5sb2cocmVkdWNlcig1LCBpbmNyZW1lbnRBY3Rpb24pKTsgLy8gLT4gNlxuXG5jb25zdCB1bmtub3duQWN0aW9uID0geyB0eXBlOiAnVU5LTk9XTicgfTtcblxuY29uc29sZS5sb2cocmVkdWNlcig1LCB1bmtub3duQWN0aW9uKSk7IC8vIC0+IDVcbmNvbnNvbGUubG9nKHJlZHVjZXIoOCwgdW5rbm93bkFjdGlvbikpOyAvLyAtPiA4XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "initial-reducer.js"
+      ],
+      "names": [
+        "reducer",
+        "state",
+        "action",
+        "type",
+        "incrementAction",
+        "console",
+        "log",
+        "unknownAction"
+      ],
+      "mappings": ";;AAAA;;AAEA,SAASA,OAAT,CAAiBC,KAAjB,EAAwBC,MAAxB,EAAgC;AAC9B,MAAIA,OAAOC,IAAP,KAAgB,WAApB,EAAiC;AAC/B,WAAOF,QAAQ,CAAf;AACD,GAFD,MAEO;AACL,WAAOA,KAAP;AACD;AACF;;AAED,IAAMG,kBAAkB,EAAED,MAAM,WAAR,EAAxB;;AAEAE,QAAQC,GAAR,CAAYN,QAAQ,CAAR,EAAWI,eAAX,CAAZ,E,CAA0C;AAC1CC,QAAQC,GAAR,CAAYN,QAAQ,CAAR,EAAWI,eAAX,CAAZ,E,CAA0C;AAC1CC,QAAQC,GAAR,CAAYN,QAAQ,CAAR,EAAWI,eAAX,CAAZ,E,CAA0C;;AAE1C,IAAMG,gBAAgB,EAAEJ,MAAM,SAAR,EAAtB;;AAEAE,QAAQC,GAAR,CAAYN,QAAQ,CAAR,EAAWO,aAAX,CAAZ,E,CAAwC;AACxCF,QAAQC,GAAR,CAAYN,QAAQ,CAAR,EAAWO,aAAX,CAAZ,E,CAAwC",
+      "file": "initial-reducer.js",
+      "sourceRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/complete",
+      "sourcesContent": [
+        "/* eslint-disable no-console */\n\nfunction reducer(state, action) {\n  if (action.type === 'INCREMENT') {\n    return state + 1;\n  } else {\n    return state;\n  }\n}\n\nconst incrementAction = { type: 'INCREMENT' };\n\nconsole.log(reducer(0, incrementAction)); // -> 1\nconsole.log(reducer(1, incrementAction)); // -> 2\nconsole.log(reducer(5, incrementAction)); // -> 6\n\nconst unknownAction = { type: 'UNKNOWN' };\n\nconsole.log(reducer(5, unknownAction)); // -> 5\nconsole.log(reducer(8, unknownAction)); // -> 8\n"
+      ]
+    },
+    "mtime": 1561566581293
+  },
+  "{\"filename\":\"/Users/ahernandez/Sites/fullstack-react-code/redux/counter/alex-complete/reducer.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/Users/ahernandez/Sites/fullstack-react-code/redux/counter/alex-complete\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/alex-complete/reducer.js",
+      "filenameRelative": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/alex-complete/reducer.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "reducer.js",
+      "sourceFileName": "reducer.js",
+      "sourceRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/alex-complete",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/alex-complete",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "reducer"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\n/* eslint-disable no-console */\n\nfunction reducer(state, action) {\n  if (action.type === 'INCREMENT') {\n    return state + action.amount;\n  } else if (action.type === 'DECREMENT') {\n    return state - action.amount;\n  } else {\n    return state;\n  }\n}\n\nvar incrementAction = { type: 'INCREMENT', amount: 5 };\nvar decrementAction = { type: 'DECREMENT', amount: 3 };\nvar unknownAction = { type: 'UNKNOWN', amount: 4 };\n\n// console.log(reducer(0, incrementAction));\n// console.log(reducer(1, incrementAction));\n// console.log(reducer(5, incrementAction));\n//\n// console.log(reducer(10, decrementAction));\n// console.log(reducer(9, decrementAction));\n// console.log(reducer(5, decrementAction));\n//\n// console.log(reducer(5, unknownAction));\n// console.log(reducer(8, unknownAction));\n\nfunction createStore(reducer) {\n  var state = 0;\n\n  var getState = function getState() {\n    return state;\n  };\n\n  var dispatch = function dispatch(action) {\n    state = reducer(state, action);\n  };\n\n  return {\n    getState: getState,\n    dispatch: dispatch\n  };\n}\n\nvar store = createStore(reducer);\n\nstore.dispatch(incrementAction);\nconsole.log(store.getState());\n\nstore.dispatch(incrementAction);\nconsole.log(store.getState());\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZHVjZXIuanMiXSwibmFtZXMiOlsicmVkdWNlciIsInN0YXRlIiwiYWN0aW9uIiwidHlwZSIsImFtb3VudCIsImluY3JlbWVudEFjdGlvbiIsImRlY3JlbWVudEFjdGlvbiIsInVua25vd25BY3Rpb24iLCJjcmVhdGVTdG9yZSIsImdldFN0YXRlIiwiZGlzcGF0Y2giLCJzdG9yZSIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7O0FBRUEsU0FBU0EsT0FBVCxDQUFpQkMsS0FBakIsRUFBd0JDLE1BQXhCLEVBQWdDO0FBQzlCLE1BQUlBLE9BQU9DLElBQVAsS0FBZ0IsV0FBcEIsRUFBaUM7QUFDL0IsV0FBT0YsUUFBUUMsT0FBT0UsTUFBdEI7QUFDRCxHQUZELE1BRU8sSUFBSUYsT0FBT0MsSUFBUCxLQUFnQixXQUFwQixFQUFpQztBQUN0QyxXQUFPRixRQUFRQyxPQUFPRSxNQUF0QjtBQUNELEdBRk0sTUFFQTtBQUNMLFdBQU9ILEtBQVA7QUFDRDtBQUNGOztBQUVELElBQU1JLGtCQUFrQixFQUFFRixNQUFNLFdBQVIsRUFBcUJDLFFBQVEsQ0FBN0IsRUFBeEI7QUFDQSxJQUFNRSxrQkFBa0IsRUFBRUgsTUFBTSxXQUFSLEVBQXFCQyxRQUFRLENBQTdCLEVBQXhCO0FBQ0EsSUFBTUcsZ0JBQWdCLEVBQUVKLE1BQU0sU0FBUixFQUFtQkMsUUFBTyxDQUExQixFQUF0Qjs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQSxTQUFTSSxXQUFULENBQXFCUixPQUFyQixFQUE4QjtBQUM1QixNQUFJQyxRQUFRLENBQVo7O0FBRUEsTUFBTVEsV0FBVyxTQUFYQSxRQUFXO0FBQUEsV0FBT1IsS0FBUDtBQUFBLEdBQWpCOztBQUVBLE1BQU1TLFdBQVcsU0FBWEEsUUFBVyxDQUFDUixNQUFELEVBQVk7QUFDM0JELFlBQVFELFFBQVFDLEtBQVIsRUFBZUMsTUFBZixDQUFSO0FBQ0QsR0FGRDs7QUFJQSxTQUFPO0FBQ0xPLHNCQURLO0FBRUxDO0FBRkssR0FBUDtBQUlEOztBQUVELElBQU1DLFFBQVFILFlBQVlSLE9BQVosQ0FBZDs7QUFFQVcsTUFBTUQsUUFBTixDQUFlTCxlQUFmO0FBQ0FPLFFBQVFDLEdBQVIsQ0FBWUYsTUFBTUYsUUFBTixFQUFaOztBQUVBRSxNQUFNRCxRQUFOLENBQWVMLGVBQWY7QUFDQU8sUUFBUUMsR0FBUixDQUFZRixNQUFNRixRQUFOLEVBQVoiLCJmaWxlIjoicmVkdWNlci5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWhlcm5hbmRlei9TaXRlcy9mdWxsc3RhY2stcmVhY3QtY29kZS9yZWR1eC9jb3VudGVyL2FsZXgtY29tcGxldGUiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBlc2xpbnQtZGlzYWJsZSBuby1jb25zb2xlICovXG5cbmZ1bmN0aW9uIHJlZHVjZXIoc3RhdGUsIGFjdGlvbikge1xuICBpZiAoYWN0aW9uLnR5cGUgPT09ICdJTkNSRU1FTlQnKSB7XG4gICAgcmV0dXJuIHN0YXRlICsgYWN0aW9uLmFtb3VudDtcbiAgfSBlbHNlIGlmIChhY3Rpb24udHlwZSA9PT0gJ0RFQ1JFTUVOVCcpIHtcbiAgICByZXR1cm4gc3RhdGUgLSBhY3Rpb24uYW1vdW50O1xuICB9IGVsc2Uge1xuICAgIHJldHVybiBzdGF0ZTtcbiAgfVxufVxuXG5jb25zdCBpbmNyZW1lbnRBY3Rpb24gPSB7IHR5cGU6ICdJTkNSRU1FTlQnLCBhbW91bnQ6IDUgfTtcbmNvbnN0IGRlY3JlbWVudEFjdGlvbiA9IHsgdHlwZTogJ0RFQ1JFTUVOVCcsIGFtb3VudDogMyB9O1xuY29uc3QgdW5rbm93bkFjdGlvbiA9IHsgdHlwZTogJ1VOS05PV04nLCBhbW91bnQ6NCB9O1xuXG4vLyBjb25zb2xlLmxvZyhyZWR1Y2VyKDAsIGluY3JlbWVudEFjdGlvbikpO1xuLy8gY29uc29sZS5sb2cocmVkdWNlcigxLCBpbmNyZW1lbnRBY3Rpb24pKTtcbi8vIGNvbnNvbGUubG9nKHJlZHVjZXIoNSwgaW5jcmVtZW50QWN0aW9uKSk7XG4vL1xuLy8gY29uc29sZS5sb2cocmVkdWNlcigxMCwgZGVjcmVtZW50QWN0aW9uKSk7XG4vLyBjb25zb2xlLmxvZyhyZWR1Y2VyKDksIGRlY3JlbWVudEFjdGlvbikpO1xuLy8gY29uc29sZS5sb2cocmVkdWNlcig1LCBkZWNyZW1lbnRBY3Rpb24pKTtcbi8vXG4vLyBjb25zb2xlLmxvZyhyZWR1Y2VyKDUsIHVua25vd25BY3Rpb24pKTtcbi8vIGNvbnNvbGUubG9nKHJlZHVjZXIoOCwgdW5rbm93bkFjdGlvbikpO1xuXG5mdW5jdGlvbiBjcmVhdGVTdG9yZShyZWR1Y2VyKSB7XG4gIGxldCBzdGF0ZSA9IDA7XG5cbiAgY29uc3QgZ2V0U3RhdGUgPSAoKSA9PiAoc3RhdGUpO1xuXG4gIGNvbnN0IGRpc3BhdGNoID0gKGFjdGlvbikgPT4ge1xuICAgIHN0YXRlID0gcmVkdWNlcihzdGF0ZSwgYWN0aW9uKTtcbiAgfTtcblxuICByZXR1cm4ge1xuICAgIGdldFN0YXRlLFxuICAgIGRpc3BhdGNoXG4gIH1cbn1cblxuY29uc3Qgc3RvcmUgPSBjcmVhdGVTdG9yZShyZWR1Y2VyKTtcblxuc3RvcmUuZGlzcGF0Y2goaW5jcmVtZW50QWN0aW9uKTtcbmNvbnNvbGUubG9nKHN0b3JlLmdldFN0YXRlKCkpO1xuXG5zdG9yZS5kaXNwYXRjaChpbmNyZW1lbnRBY3Rpb24pO1xuY29uc29sZS5sb2coc3RvcmUuZ2V0U3RhdGUoKSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "reducer.js"
+      ],
+      "names": [
+        "reducer",
+        "state",
+        "action",
+        "type",
+        "amount",
+        "incrementAction",
+        "decrementAction",
+        "unknownAction",
+        "createStore",
+        "getState",
+        "dispatch",
+        "store",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;AAEA,SAASA,OAAT,CAAiBC,KAAjB,EAAwBC,MAAxB,EAAgC;AAC9B,MAAIA,OAAOC,IAAP,KAAgB,WAApB,EAAiC;AAC/B,WAAOF,QAAQC,OAAOE,MAAtB;AACD,GAFD,MAEO,IAAIF,OAAOC,IAAP,KAAgB,WAApB,EAAiC;AACtC,WAAOF,QAAQC,OAAOE,MAAtB;AACD,GAFM,MAEA;AACL,WAAOH,KAAP;AACD;AACF;;AAED,IAAMI,kBAAkB,EAAEF,MAAM,WAAR,EAAqBC,QAAQ,CAA7B,EAAxB;AACA,IAAME,kBAAkB,EAAEH,MAAM,WAAR,EAAqBC,QAAQ,CAA7B,EAAxB;AACA,IAAMG,gBAAgB,EAAEJ,MAAM,SAAR,EAAmBC,QAAO,CAA1B,EAAtB;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA,SAASI,WAAT,CAAqBR,OAArB,EAA8B;AAC5B,MAAIC,QAAQ,CAAZ;;AAEA,MAAMQ,WAAW,SAAXA,QAAW;AAAA,WAAOR,KAAP;AAAA,GAAjB;;AAEA,MAAMS,WAAW,SAAXA,QAAW,CAACR,MAAD,EAAY;AAC3BD,YAAQD,QAAQC,KAAR,EAAeC,MAAf,CAAR;AACD,GAFD;;AAIA,SAAO;AACLO,sBADK;AAELC;AAFK,GAAP;AAID;;AAED,IAAMC,QAAQH,YAAYR,OAAZ,CAAd;;AAEAW,MAAMD,QAAN,CAAeL,eAAf;AACAO,QAAQC,GAAR,CAAYF,MAAMF,QAAN,EAAZ;;AAEAE,MAAMD,QAAN,CAAeL,eAAf;AACAO,QAAQC,GAAR,CAAYF,MAAMF,QAAN,EAAZ",
+      "file": "reducer.js",
+      "sourceRoot": "/Users/ahernandez/Sites/fullstack-react-code/redux/counter/alex-complete",
+      "sourcesContent": [
+        "/* eslint-disable no-console */\n\nfunction reducer(state, action) {\n  if (action.type === 'INCREMENT') {\n    return state + action.amount;\n  } else if (action.type === 'DECREMENT') {\n    return state - action.amount;\n  } else {\n    return state;\n  }\n}\n\nconst incrementAction = { type: 'INCREMENT', amount: 5 };\nconst decrementAction = { type: 'DECREMENT', amount: 3 };\nconst unknownAction = { type: 'UNKNOWN', amount:4 };\n\n// console.log(reducer(0, incrementAction));\n// console.log(reducer(1, incrementAction));\n// console.log(reducer(5, incrementAction));\n//\n// console.log(reducer(10, decrementAction));\n// console.log(reducer(9, decrementAction));\n// console.log(reducer(5, decrementAction));\n//\n// console.log(reducer(5, unknownAction));\n// console.log(reducer(8, unknownAction));\n\nfunction createStore(reducer) {\n  let state = 0;\n\n  const getState = () => (state);\n\n  const dispatch = (action) => {\n    state = reducer(state, action);\n  };\n\n  return {\n    getState,\n    dispatch\n  }\n}\n\nconst store = createStore(reducer);\n\nstore.dispatch(incrementAction);\nconsole.log(store.getState());\n\nstore.dispatch(incrementAction);\nconsole.log(store.getState());\n"
+      ]
+    },
+    "mtime": 1565760631566
+  }
+}

@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>{{$ctrl.listName}}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-success" type="button">Agregar pendiente</button>
+        </span>
+        <input type="text" ng-model="ctrl.todo.name" class="form-control" placeholder="Agregar pendiente">
+      </div>
+    </div>
+  </div>
+  <div class="row todos-container">
+    <div class="col-sm-12">
+      <todo todos="$ctrl.todos" name="$ctrl.name"></todo>
+    </div>
+  </div>
+</div>

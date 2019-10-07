@@ -1,0 +1,12 @@
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="item in $ctrl.todos">
+        {{item.name}}
+        <button class="btn btn-success" type="button" ng-click="$ctrl.add(item)">Agregar pendiente</button>
+        <button ng-if="item.todos && item.todos.length" class="btn btn-danger" type="button" ng-click="$ctrl.delete(item)">Borrar pendiente</button>
+        <div ng-if="item.todos && item.todos.length">
+            <todo todos="item.todos"></todo>
+        </div>
+    </li>
+</ul>
+
+
